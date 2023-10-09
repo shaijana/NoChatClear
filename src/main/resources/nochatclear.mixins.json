@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "de.fabim.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "IngameHudMixin",
+    "MinecraftClientMixin"
+  ]
+}

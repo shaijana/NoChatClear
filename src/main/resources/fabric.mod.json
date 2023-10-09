@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "nochatclear",
+	"version": "${version}",
+	"name": "NoChatClear",
+	"description": "Prevents deletion of the chat when changing to worlds with other datapack.",
+	"authors": [
+		"Shaijana"
+	],
+	"contact": {
+		"homepage": "https://unlimitedworld.de/members/shaijana.7644/",
+		"issues": "https://github.com/shaijana/nochatclear/issues",
+		"sources": "https://github.com/shaijana/nochatclear",
+		"discord": "https://discord.gg/M28fFFMEbf"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/nochatclear/icon.png",
+	"environment": "*",
+	"entrypoints": {},
+	"mixins": [
+		"nochatclear.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.14.22",
+		"minecraft": "~1.20.2",
+		"java": ">=17"
+	}
+}
