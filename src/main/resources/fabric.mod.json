@@ -13,7 +13,7 @@
 		"sources": "https://github.com/shaijana/nochatclear",
 		"discord": "https://discord.gg/M28fFFMEbf"
 	},
-	"license": "CC0-1.0",
+	"license": "LGPLv3",
 	"icon": "assets/nochatclear/icon.png",
 	"environment": "*",
 	"entrypoints": {},
