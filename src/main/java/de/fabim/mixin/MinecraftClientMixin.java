@@ -14,7 +14,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfo;
 public class MinecraftClientMixin {
     @Shadow @Final public InGameHud inGameHud;
 
-    @Inject(method = "enterReconfiguration", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/gui/hud/InGameHud;clear()V"))
+    @Inject(method = "enterReconfiguration(Lnet/minecraft/client/gui/screen/Screen;)V", at = @At(value = "INVOKE"))
     private void enterReconfiguration(Screen screen, CallbackInfo ci) {
         System.out.println("MinecraftClient.enterReconfiguration()");
         this.inGameHud.clear();
